@@ -1,0 +1,236 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+
+}
+
+body {
+	
+	font-family: 'VT323', monospace;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #676FA3 !important;
+	background-color: #EEF2FF;
+	
+	
+
+	
+}
+
+ul {
+	list-style:none;
+}
+
+.Container {
+	background-color: #EEF2FF !important;
+	padding: 60px;
+	box-sizing: border-box;
+
+
+}
+
+/*navbar*/
+
+nav {
+	
+	background-color: #EEF2FF !important;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+	height: 60px;
+	position: fixed;
+	
+	
+
+	
+
+}
+
+
+nav ul{
+	
+
+	
+	
+
+	line-height: 7vh;
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	color:  #676FA3 !important;
+	
+	box-sizing: border-box;
+	font-size: 24px;
+}
+
+
+
+nav ul li .menu:hover {
+	background-color: #676FA3 ;
+	color: #EEF2FF !important;
+}
+
+/*jumbotron*/
+
+
+.resume {
+	text-align: center;
+	color: #676FA3 !important;
+
+}
+
+
+
+
+
+.resume:hover {
+	background-color: #FF5959;
+}
+
+
+
+/*biografy*/
+
+
+
+/*skill*/
+
+
+.skill ul li {
+	font-size: 25px;
+}
+
+
+.skill header {
+	font-size: 36px;
+	font-weight: 400px;
+	text-align: center;
+}
+
+.tingkatan {
+	padding: 10px 30px;
+	background-color:  #FF5959;
+	font-size: 20px;
+	
+}
+
+
+
+.html a, .css a, .php a, .javascript a, .bootsrap a, .laravel a{
+	color: white;
+	float: right;
+	text-decoration: none;
+	cursor: auto;
+}
+
+
+.html {
+	width: 95%;
+	background-color: rgb(76, 175, 80);
+	color: white;
+}
+
+.css {
+	width: 95%;
+	background-color: #FF5959;
+	color: white;
+}
+
+.javascript {
+	width: 85%;
+	background-color: #C9F20C;
+	color: white;
+}
+
+.php {
+	width: 75%;
+	background-color: #676FA3;
+	color: white;
+
+}
+
+.bootsrap {
+	width: 90%;
+	background-color: #16DB93;
+	color: white;
+}
+.laravel {
+	width: 70%;
+	background-color: #16DB93;
+	color: white;
+}
+
+/*social media*/
+
+.socialaccount h1 {
+	font-size: 36px;
+	font-weight: 400px;
+	text-align: center;
+	
+}
+
+.socialaccount a {
+	
+	padding: 12px;
+}
+
+.socialaccount a i {
+	font-size: 2.5em;
+	color: #676FA3;
+
+}
+
+
+.bio {
+	margin-top:150px;
+}
+
+
+
+/*footer*/
+
+footer {
+
+	height:50px;
+	line-height:50px;
+	background-color: #676FA3 ;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+	.biodataImg {
+		display:none;
+	}
+  }
+@media only screen and (max-width: 1024px) {
+	.biodataImg {
+		width:300px;
+	}
+
+	.bio {
+		margin-top:20px;
+	}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
